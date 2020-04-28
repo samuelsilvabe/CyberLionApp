@@ -1,0 +1,80 @@
+page-tela-cadastro {
+    #container {
+        background: url('../assets/bg/bg.jpg');
+        background-size: cover;
+        // background-color: map-get($colors, primary);
+    }
+
+    .logo {
+        // border: 1px solid red;
+        margin: auto;
+        margin-top: 50px;
+        align-items: center;
+        height: 235px;
+        width: 245px;
+        left: 50%;
+
+        img {
+            align-items: center;
+        }
+
+    }
+    
+    .div-input {
+        display: block;
+
+        ion-input {
+            // border: solid red 1px;
+            border-radius: 8px;
+            border: 1px solid #92A9E8;
+            height: 37px;
+            width: 280px;
+            margin: auto;
+            background:  rgba(255, 255, 255, 0.8);
+
+        }
+        
+        .user {
+            margin-top: 55px;
+            color: #92A9E8;
+            text-align: center;
+                
+        }
+
+        .email {
+            margin-top: 20px;
+            color: #92A9E8;
+            
+        }
+
+        .senha {
+            margin-top: 20px;
+            color: #92A9E8;    
+        }  
+
+    }
+
+    // Botao de Cadastro
+    .login {
+        margin-top: 100px;
+        background: #92A9E8;
+        border: 1px solid #92A9E8;
+        box-shadow: 1px 1px 3px rgba(146, 169, 232, 0.8);
+
+        display: block;
+        width: 280px;
+        height: 50px;
+        margin: auto;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 40px;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+        }
+
+    }   
+
+}

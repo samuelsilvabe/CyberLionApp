@@ -1,0 +1,60 @@
+page-tela-inicial {
+    #container {
+        background: url('../assets/bg/bg.jpg');
+        background-size: cover;
+    }
+
+    #logo {
+        // border: 1px solid red;
+        margin: auto;
+        margin-top: 100px;
+        align-items: center;
+        height: 235px;
+        width: 245px;
+        left: 50%;
+
+        ion-img {
+            align-items: center;
+        }
+    }
+
+    #buttons {
+        margin: auto;
+        button {
+            display: block;
+            width: 280px;
+            height: 50px;
+            margin: auto;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .login {
+            // margin-top: 120px;
+            margin-top: 150px;
+            background: #E6F8FF;
+            // border: 1px solid #3D3368;
+
+            a{
+                color: #3D3368;
+            }   
+        }
+
+        .start {            
+            margin-top: 15px;
+            color: black;
+            background: #92A9E8;
+            border: 1px solid #92A9E8;
+            box-shadow: 1px 1px 3px rgba(146, 169, 232, 0.8);
+
+            a {
+                color:white;
+            } 
+        }
+
+        a {
+            text-transform: uppercase;
+            text-decoration: none;
+        }            
+    }    
+}

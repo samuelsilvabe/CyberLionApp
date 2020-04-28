@@ -1,0 +1,76 @@
+@import '../../theme/variables.scss';
+page-tela-login {
+
+    #container {
+        background: url('../assets/bg/bg.jpg');
+        background-size: cover;
+    }
+
+    #logo {
+        margin: auto;
+        margin-top: 50px;
+        align-items: center;
+        height: 235px;
+        width: 245px;
+        left: 50%;
+
+        img {
+            align-items: center;
+        }
+
+    }
+    
+    #buttons {
+        button {
+            display: block;
+            width: 280px;
+            height: 50px;
+            margin: auto;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .login {
+            margin-top: 100px;
+            background: #92A9E8;
+            box-shadow: 1px 1px 3px rgba(146, 169, 232, 0.8);
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+        }
+        
+    }
+
+    ion-list {
+        display: block;
+        
+        ion-input {
+            display: block;
+            border-radius: 8px;
+            border: 1px solid #92A9E8;
+            height: 37px;
+            width: 280px;
+            margin: auto;
+            background:  rgba(255, 255, 255, 0.8);
+            
+        }
+
+        .user {
+            margin-top: 55px;
+            color: #92A9E8;
+            text-align: center;
+              
+        }
+
+        .pass {
+            margin-top: 15px;
+            color: #92A9E8;
+            
+        }
+
+    }   
+    
+}
